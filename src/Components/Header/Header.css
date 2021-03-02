@@ -1,0 +1,19 @@
+.nav-link {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.container img{
+    width: 100px;
+}
+.nav-item{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    display:flex;
+    position: relative;
+    left:1100px;
+    bottom:120px;
+}
