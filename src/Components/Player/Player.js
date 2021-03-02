@@ -5,7 +5,6 @@ import './Player.css'
 
 const Player = props => {
     const { name, price, image } = props.player;
-    console.log(props.player);
     const [isClicked, setIsClicked] = useState(false);
     return (
         <div className="col-lg-4 col-md-6">
