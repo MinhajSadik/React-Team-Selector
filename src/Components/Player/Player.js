@@ -7,7 +7,7 @@ const Player = props => {
     const { name, price, image } = props.player;
     const [isClicked, setIsClicked] = useState(false);
     return (
-        <div className="col-lg-4 col-md-6">
+        <div className=" col-lg-4 col-md-6">
             <div className="card">
                 <img src={image} alt="" />
                 <div className="card-body">

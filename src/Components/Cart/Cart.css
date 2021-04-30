@@ -6,11 +6,11 @@
 .cart {
   transition: ease all 0.3s;
   position: fixed;
-  bottom:400px;
-  left: 1000px;
+  top:20px;
+  left: 1100px;
   border: 2px solid brown;
   width:300px;
-  height: 200px;
+  height: 700px;
   padding: 10px;
   margin:10px;
 }
@@ -18,17 +18,17 @@
 @media (min-width: 991px) {
   .cart.active {
     position: fixed;
-    top: 10px;
     width: 300px;
+    height: 700;
   }
 }
 
 @media (max-width: 991px) {
   .cart {
     position: fixed;
-    width: 250px;
-    bottom: 300px;
-    left: 400px;
+    width: 300px;
+    bottom: 550px;
+    left: 300px;
     height: calc(20vh - 0px);
     overflow-x: hidden;
     overflow-y: auto;
@@ -37,3 +37,4 @@
     
   }
 }
+
